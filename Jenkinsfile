@@ -3,7 +3,7 @@ pipeline {
   agent any
 
   environment {
-    DOCKER_IMAGE = "vortexfrenzy/22:latest"
+    DOCKER_IMAGE = "gautamkappagal/10/gautamkappagal"
     // Use PATH+ addition to append common Homebrew locations on macOS
     // (If your docker is in a different location, update the value below)
     PATH = "/opt/homebrew/bin:/usr/local/bin:${env.PATH}"
